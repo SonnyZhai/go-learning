@@ -10,3 +10,4 @@
 5. [流程控制](./project05-process/流程控制.md)
 6. [数组](./project06-array/数组.md)
 7. [切片](./project07-slice/切片.md)
+8. [map](./project08-map/map.md)
