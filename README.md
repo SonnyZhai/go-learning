@@ -11,3 +11,5 @@
 6. [数组](./project06-array/数组.md)
 7. [切片](./project07-slice/切片.md)
 8. [map](./project08-map/map.md)
+9. [函数](./project09-func/函数.md)
+10. [指针](./project10-pointer/指针.md)

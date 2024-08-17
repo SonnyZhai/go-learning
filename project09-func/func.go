@@ -39,6 +39,14 @@ func calc(index string, a, b int) int {
 	return ret
 }
 
+func intSeq() func() int {
+	i := 0
+	return func() int {
+		i++
+		return i
+	}
+}
+
 func main() {
 	fmt.Println(f1()) // 5
 	fmt.Println(f2()) // 6
@@ -56,4 +64,13 @@ func main() {
 
 	fmt.Println("=====================================")
 	Main()
+
+	fmt.Println("=====================================")
+	nextInt := intSeq()
+	fmt.Println(nextInt()) // 1
+	fmt.Println(nextInt()) // 2
+	fmt.Println(nextInt()) // 3
+
+	newInts := intSeq()
+	fmt.Println(newInts()) // 1
 }
