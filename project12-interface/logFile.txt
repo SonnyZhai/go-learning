@@ -1,0 +1,2 @@
+2024/08/19 17:04:21 2024-08-19 17:04:21 This is a log message to the file
+2024/08/19 17:04:21 2024-08-19 17:04:21 Logging to the file again
