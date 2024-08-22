@@ -1,0 +1,17 @@
+app_name: MyApp
+app_port: 8080
+
+database:
+  db_name: mydatabase
+  user: admin
+  password: secret
+
+services:
+  - service1
+  - service2
+  - service3
+
+start_times:
+  - 2024-01-01 08:00:00
+  - 2024-01-02 09:00:00
+  - 2024-01-03 10:00:00
